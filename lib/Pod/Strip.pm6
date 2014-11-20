@@ -45,7 +45,7 @@ sub _pod-strip(@in is rw, Str :$in-block? = '') {
             @out.push: '', |_pod-strip(@in, :in-block($block-type.Str));
             next;
         }
-        if $line ~~ /^\s* '='\w+ (\s|$)/ {
+        if $line ~~ /^\s* '='\w<[\w-]>* (\s|$)/ {
 	    # Start of paragraph
             $in-para = True;
             @out.push: '';
