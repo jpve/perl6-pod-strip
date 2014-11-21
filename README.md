@@ -11,8 +11,8 @@ Strip Pod annotation from Perl6. Converts Pod documentation to empty lines of th
 
 Using panda:
 ```
-$ git clone git://github.com/jpve/perl6-pod-strip.git
-$ panda install ./pod-strip
+$ panda update
+$ panda install Pod::Strip
 ```
 
 Using ufo:
