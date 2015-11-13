@@ -21,7 +21,7 @@ unit module Pod::Strip;
 =head3 Subroutines
 
 #| Replace Pod lines with empty lines.
-sub _pod-strip(@in is rw, Str :$in-block? = '') {
+sub _pod-strip(@in, Str :$in-block? = '') {
     my @out;
     my $in-para = False;
     while @in.elems {
