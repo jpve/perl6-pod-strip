@@ -1,4 +1,5 @@
 {
+  "perl"        : "6.*",
   "name"        : "Pod::Strip",
   "version"     : "v0.0.1",
   "description" : "Strip Pod annotation from Perl6 code",
