@@ -1,5 +1,4 @@
 use v6;
-BEGIN { @*INC.unshift: 'blib/lib' }
 
 use Test;
 use Pod::Strip;
